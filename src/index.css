@@ -1,14 +1,25 @@
-.welcome-message, .login-prompt {
+.list-category {
     font-size: 2.5em;
-    background-color: rgb(29, 215, 0);
-    color: white;
     font-weight: bold;
-    padding: 10px;
-    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 32, 32);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(222, 136, 136);
+}
+
+.list-items {
+    font-size: 2em;
+    font-weight: bold;
+    list-style: none;
+    color: rgba(79, 79, 79, 0.741);
+    text-align: center;
     margin: 0;
 }
 
-.login-prompt {
-    background-color: rgb(215, 0, 0);
+.list-items:hover {
+    color: lightcoral;
+    cursor: pointer;
 }
