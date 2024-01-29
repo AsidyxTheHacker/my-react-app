@@ -1,9 +1,36 @@
-img {
-    cursor: pointer;
-    transition: .2s;
-    border: black solid 2px;
+.counter-container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-img:hover {
-    margin-top: .2em;
+.count-display {
+    margin: 0;
+    font-size: 8em;
+}
+
+.counter-button {
+    width: 150px;
+    font-weight: bold;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 20px;
+    border: solid rgba(0, 0, 0, 0.367) 2px;
+    box-shadow: rgba(0, 0, 0, 0.606) 3px 3px 0;
+    transition: .2s;
+}
+
+.counter-button:hover {
+    transform: scale(1.05);
+}
+
+.counter-button:active:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.83);
+    color: white;
+}
+
+.counter-button:active:nth-child(4) {
+    background-color: rgba(5, 164, 5, 0.738);
+    color: white;
 }
