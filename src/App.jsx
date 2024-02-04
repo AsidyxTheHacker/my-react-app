@@ -1,9 +1,9 @@
-import Change from './Change.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
   return(
     <>
-      <Change/>
+      <Counter/>
     </>
   );
 }
