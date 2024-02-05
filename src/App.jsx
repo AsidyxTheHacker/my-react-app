@@ -1,9 +1,9 @@
-import Counter from './Counter.jsx'
+import Object from './Object.jsx'
 
 function App() {
   return(
     <>
-      <Counter/>
+      <Object/>
     </>
   );
 }
