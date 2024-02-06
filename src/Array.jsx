@@ -6,8 +6,12 @@ function Array() {
 
     function handleAddFood() {
         const newFood = document.getElementById('foodInput').value;
+        if(newFood == ''){
+            setFoods(foods)
+        } else {
+            setFoods(f => [...f, newFood]);
+        }
         document.getElementById('foodInput').value = '';
-        setFoods(f => [...f, newFood]);
     }
 
     function handleRemoveFood(index) {
