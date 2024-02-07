@@ -1,9 +1,9 @@
-import Array from './Array.jsx'
+import ObjectArrays from './ObjectArrays.jsx';
 
 function App() {
   return(
     <>
-      <Array/>
+      <ObjectArrays/>
     </>
   );
 }
