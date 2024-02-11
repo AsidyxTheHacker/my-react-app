@@ -1,9 +1,9 @@
-import ObjectArrays from './ObjectArrays.jsx';
+import UseEffectTwo from './UseEffectTwo.jsx';
 
 function App() {
   return(
     <>
-      <ObjectArrays/>
+      <UseEffectTwo/>
     </>
   );
 }
