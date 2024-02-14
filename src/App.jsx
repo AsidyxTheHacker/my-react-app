@@ -1,13 +1,13 @@
-import UseEffectTwo from './UseEffectTwo.jsx';
+import ComponentA from "./ComponentA";
 
 function App() {
   return(
     <>
-      <UseEffectTwo/>
+      <ComponentA />
     </>
   );
 }
 
-export default App
+export default App;
 
 //npm run dev to open live server
