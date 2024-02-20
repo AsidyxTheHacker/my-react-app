@@ -1,9 +1,9 @@
-import UseRef from "./UseRef";
+import Fruits from "./Fruits";
 
 function App() {
   return(
     <>
-      <UseRef />
+      <Fruits />
     </>
   );
 }
