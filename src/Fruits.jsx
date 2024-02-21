@@ -1,3 +1,5 @@
+import Fruit from './Fruit'
+
 export default function Fruits() {
 
     const fruits = [
@@ -11,7 +13,7 @@ export default function Fruits() {
     return(
     <div>
         <ul>
-            {fruits.map((f) => <li key={f.name}>{f.emoji} {f.name} ${f.price}</li>)}
+            {fruits.map((f) => <Fruit key={f.name} name={f.name} price={f.price} emoji={f.emoji} />)}
         </ul>
     </div>
     )

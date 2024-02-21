@@ -1,6 +1,6 @@
-export default function Fruit() {
+export default function Fruit({ name, price, emoji }) {
 
     return(
-        <div>Fruit</div>
+        <li>{emoji} {name} ${price}</li>
     )
 };
