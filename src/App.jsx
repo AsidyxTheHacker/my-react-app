@@ -1,9 +1,9 @@
-import Fruits from "./Fruits";
+import ConditionalComponent from "./ConditionalComponent";
 
 function App() {
   return(
     <>
-      <Fruits />
+      <ConditionalComponent />
     </>
   );
 }
