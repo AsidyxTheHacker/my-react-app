@@ -1,9 +1,9 @@
-import Fruits from "./Fruits";
+import Message from "./Message";
 
 function App() {
   return(
     <>
-      <Fruits />
+      <Message />
     </>
   );
 }
