@@ -1,9 +1,9 @@
-import Message from "./Message";
+import Counter_Two from "./Counter_Two";
 
 function App() {
   return(
     <>
-      <Message />
+      <Counter_Two />
     </>
   );
 }
