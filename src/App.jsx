@@ -1,9 +1,9 @@
-import Counter_Two from "./Counter_Two";
+import Form from "./Form";
 
 function App() {
   return(
     <>
-      <Counter_Two />
+      <Form />
     </>
   );
 }
