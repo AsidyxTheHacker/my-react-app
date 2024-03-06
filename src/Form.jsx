@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Form() {
 
-    const [person, setPerson] = useState({ firstName: "User", lastName: "", age: 0 });
+    const [person, setPerson] = useState({ firstName: "", lastName: "", age: 0 });
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -14,7 +14,7 @@ export default function Form() {
         <form>
             <input onChange={(e) => setPerson({...person, firstName: e.target.value})} 
                 type="text" 
-                value={person.firstname} 
+                value={person.firstName} 
                 placeholder="First Name" /><br></br>
             <input onChange={(e) => setPerson({...person, lastName: e.target.value})} 
                 type="text" 

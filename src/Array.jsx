@@ -15,7 +15,6 @@ function Array() {
     }
 
     function handleRemoveFood(index) {
-        
         setFoods(foods.filter((_, i) => i !== index))
     }
 
@@ -30,7 +29,7 @@ function Array() {
             </li>)}
         </ul>
         <input type="text" id="foodInput" placeholder='Enter food name' />
-        <button onClick={handleAddFood} >Add Food</button>
+        <button onClick={handleAddFood}>Add Food</button>
     </div>
     </>
     )

@@ -30,23 +30,23 @@ function Change() {
 
     return(
         <div>
-            <input value={name} onChange={handleNameChange} type="text" />
             <p>Name: {name}</p>
+            <input value={name} onChange={handleNameChange} type="text" /><hr />
 
-            <input value={quantity} onChange={handleQuantityChange} type="number" />
             <p>Quantity: {quantity}</p>
+            <input value={quantity} onChange={handleQuantityChange} type="number" /><hr />
 
-            <textarea value={comment} onChange={handleCommentChange} placeholder="Enter delivery instructions"></textarea>
             <p>Comment: {comment}</p>
-
+            <textarea value={comment} onChange={handleCommentChange} placeholder="Enter delivery instructions"></textarea>
+            <br></br>
+            <p>Payment: {payment}</p>
             <label >Select Payment Option:</label>
             <select value={payment} onChange={handlePaymentChange}>
                 <option value="Giftcard">Giftcard</option>
                 <option value="Visa">Visa</option>
                 <option value="Mastercard">Mastercard</option>
             </select>
-            <p>Payment: {payment}</p>
-
+            <br></br>
             <label>
                 <input type="radio" value="Pick Up" checked={shipping === "Pick Up"}
                 onChange={handleShippingChange}/>

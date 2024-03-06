@@ -1,9 +1,9 @@
-import Form from "./Form";
+import UserGreeting from "./UserGreeting";
 
 function App() {
   return(
     <>
-      <Form />
+      <UserGreeting />
     </>
   );
 }

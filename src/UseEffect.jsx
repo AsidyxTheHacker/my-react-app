@@ -6,7 +6,7 @@ function UseEffect() {
     const [color, setColor] = useState('green')
 
     useEffect(() => {
-        document.title = `Count: ${count} ${color}`
+        document.title = `Count: ${count} ${color}`;
 
         return () => {
             // CLEANUP CODE
